@@ -1,10 +1,10 @@
 {
-  "name": "story-caption-teller",
+  "name": "rhetor-caption-teller",
   "version": "0.0.1",
   "main": "caption-teller.js",
   "dependencies": {},
   "peerDependencies": {
-    "story-teller": "^0.0.1"
+    "rhetor": "^0.0.1"
   },
   "scripts": {
     "dev": "webpack --mode development",

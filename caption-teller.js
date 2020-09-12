@@ -1,4 +1,4 @@
-var Teller = require('story-teller').Teller;
+var Teller = require('rhetor').Teller;
 var CaptionTeller = Teller.extend({
     eventConfiguration : function(context){
         return {
@@ -26,7 +26,7 @@ var CaptionTeller = Teller.extend({
         cb();
     }
 });
-if (typeof self !== 'undefined' && global.StoryTeller){
-    global.StoryTeller.CaptionTeller = CaptionTeller;
+if (typeof self !== 'undefined' && global.Rhetor){
+    global.Rhetor.CaptionTeller = CaptionTeller;
 }
 module.exports = CaptionTeller;
